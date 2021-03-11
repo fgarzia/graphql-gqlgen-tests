@@ -1,0 +1,16 @@
+type Employee {
+  id: Int
+  name: String
+  supervisor: Int
+  role: Role
+  subordinates: [Employee]
+}
+
+type Role {
+  id: Int
+  description: String
+  level: Int
+}
+
+type Query {
+  employees(name: String): [Employee!]!
