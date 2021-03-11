@@ -1,2 +1,1 @@
-# graphql-gqlgen-tests
-Test gqlgen GraphQL library using employees
+# Test gqlgen GraphQL library using employees
