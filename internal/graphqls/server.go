@@ -214,8 +214,7 @@ type Role {
 
 type Query {
   employees(name: String): [Employee!]!
-}
-`, BuiltIn: false},
+}`, BuiltIn: false},
 }
 var parsedSchema = gqlparser.MustLoadSchema(sources...)
 
